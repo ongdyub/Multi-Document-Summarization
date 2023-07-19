@@ -1,0 +1,5 @@
+save 폴더의 하위 폴더에
+0 / 1 / 2 / 3 / 4 / 5 이름의 폴더 생성
+
+Early Stop 이 출력 될 시 -> save/0/ 의 model0.pt 를 사용
+Early Stop 이 출력 되지 않고 모든 에폭에 대해 학습 완료 시 -> save 폴더의 model.pt 를 사용
