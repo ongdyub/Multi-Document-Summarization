@@ -1,8 +1,13 @@
 # 창의적 통합 설계- 뉴스 요약문 생성(2023-1)
 
+주식 종목 1개에 대해 5개의 추천기사가 존재한다.
+
+이때 해당 5개의 기사를 한번에 요약을 하는 프로젝트를 진행하였다.
+
 #### <a href="https://drive.google.com/file/d/1pvuxsqytqpP6Uz4uRZOcaNP6_1uoSrK_/view?usp=sharing" target="_blank"> 보고서 </a>
 
 #### <a href="https://drive.google.com/file/d/1HrGzsiuDWEtxJ3q58u-X7A9GezY9RCIS/view?usp=drive_link" target="_blank"> 모델 파일 </a>
+위의 모델 파일을 아래 model.pt 위치에 넣어주면 된다.
 
 
 ```bash
