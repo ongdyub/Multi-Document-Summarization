@@ -1,5 +1,5 @@
-# changtol_newSummarization
-창의적 통합 설계- 뉴스 요약문 생성 
+# 창의적 통합 설계- 뉴스 요약문 생성
+## 보고서 링크
 
 
 ```bash
