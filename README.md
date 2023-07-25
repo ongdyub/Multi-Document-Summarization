@@ -1,5 +1,8 @@
-# 창의적 통합 설계- 뉴스 요약문 생성
-## 보고서 링크
+# 창의적 통합 설계- 뉴스 요약문 생성(2023-1)
+
+#### <a href="https://drive.google.com/file/d/1pvuxsqytqpP6Uz4uRZOcaNP6_1uoSrK_/view?usp=sharing" target="_blank"> 보고서 </a>
+
+#### <a href="https://drive.google.com/file/d/1HrGzsiuDWEtxJ3q58u-X7A9GezY9RCIS/view?usp=drive_link" target="_blank"> 모델 파일 </a>
 
 
 ```bash
