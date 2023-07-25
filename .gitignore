@@ -1,8 +1,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/macos,python,jupyternotebooks
 # Edit at https://www.toptal.com/developers/gitignore?templates=macos,python,jupyternotebooks
 
-./summary/data/model.pt
-/summary/data/model.pt
+/summary/model/model_new.pt
+/summary/model/model.pt
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
