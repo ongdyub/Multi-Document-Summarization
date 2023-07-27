@@ -236,31 +236,20 @@ def keyword_loss_function(outputs, labels, attention_mask, keywords, tokenizer):
     # batch 내의 summary 순회
     for idx, summary in enumerate(generated_summary):
         keyword_count = sum([1 for keyword in keywords[idx] if keyword in summary])
-        # 키워드가 4,5 포함되어있으면 0, 0,1,2,3 개면 1
-        # if(keyword_count == 5):
-        #     keyword_loss += 0
-        # elif(keyword_count == 4):
-        #     keyword_loss += 0
-        # elif(keyword_count == 3):
-        #     keyword_loss += 0
-        # elif(keyword_count == 2):
-        #     keyword_loss += 3
-        # elif(keyword_count == 1):
-        #     keyword_loss += 15
-        # elif(keyword_count == 0):
-        #     keyword_loss += 63
+        
         if(keyword_count == 5):
-            keyword_loss += 1
+            keyword_loss += 0
         elif(keyword_count == 4):
-            keyword_loss += 1
+            keyword_loss += 0
         elif(keyword_count == 3):
-            keyword_loss += 1.5
+            keyword_loss += 0
         elif(keyword_count == 2):
-            keyword_loss += 2
+            keyword_loss += 3
         elif(keyword_count == 1):
-            keyword_loss += 2.5
+            keyword_loss += 15
         elif(keyword_count == 0):
-            keyword_loss += 5
+            keyword_loss += 63
+
     keyword_loss /= len(generated_summary)
     
     return keyword_loss
